@@ -4,7 +4,7 @@ from faker import Faker
 fake = Faker()
 
 # Generar datos aleatorios
-with open('C:\\Users\\racie\\Downloads\\datos.csv', mode='w', newline='') as file:
+with open('C:\\Users\\user\\Downloads\\datos.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Nombre completo', 'Correo electrónico', 'Teléfono', 'Ciudad'])
 
